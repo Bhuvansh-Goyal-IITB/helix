@@ -105,13 +105,12 @@
 		(layer "Dwgs.User")
 		(uuid "5c3612f9-aa6d-4c82-af5b-13daf29de228")
 	)
-	(pad "1" thru_hole roundrect
+	(pad "1" thru_hole circle
 		(at -7.62 -13.69 270)
 		(size 1.7526 1.7526)
 		(drill 1.0922)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(roundrect_rratio 0.1426452128)
 		(uuid "59d16c4d-582c-485e-a24a-6ecff7301f81")
 	)
 	(pad "2" thru_hole circle
