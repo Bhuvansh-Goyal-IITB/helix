@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "436331045822")(type "KiCad")(uri "${KIPRJMOD}/symbols/436331045822.kicad_sym")(options "")(descr ""))
+  (lib (name "MLL1200S")(type "KiCad")(uri "${KIPRJMOD}/symbols/MLL1200S.kicad_sym")(options "")(descr ""))
+  (lib (name "Nice_Nano_V2")(type "KiCad")(uri "${KIPRJMOD}/symbols/Nice_Nano_V2.kicad_sym")(options "")(descr ""))
+)
