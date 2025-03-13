@@ -1104,7 +1104,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "ScottoKeebs:MCU_Nice_Nano_V2"
+		(symbol "Nice_Nano_V2:MCU_Nice_Nano_V2"
 			(pin_names
 				(offset 1.016)
 			)
@@ -5185,140 +5185,6 @@
 		)
 	)
 	(symbol
-		(lib_id "ScottoKeebs:MCU_Nice_Nano_V2")
-		(at 138.43 46.99 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "35ac3c10-4c73-469b-b6dd-b2a14f5b340d")
-		(property "Reference" "U1"
-			(at 138.43 25.4 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "Nice_Nano_V2"
-			(at 138.43 27.94 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "footprints:Nice_Nano_V2"
-			(at 138.43 69.85 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 165.1 110.49 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 138.43 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "15"
-			(uuid "5552fd2f-8e3f-490a-9a3c-59b6a648e280")
-		)
-		(pin "14"
-			(uuid "aa0ac1ab-54e9-4c04-ad35-ff68b6e704a2")
-		)
-		(pin "13"
-			(uuid "7c417fe8-493e-41cf-abb9-781f3e687ebe")
-		)
-		(pin "9"
-			(uuid "f64c2b83-6827-4dbe-81d5-d44c47e2953e")
-		)
-		(pin "10"
-			(uuid "29abea1d-2000-4928-9149-b01ce621a383")
-		)
-		(pin "11"
-			(uuid "0ef655ed-1248-4b60-818a-21eec7b466d7")
-		)
-		(pin "12"
-			(uuid "f8531eab-630f-4934-8e57-eb7314658d21")
-		)
-		(pin "24"
-			(uuid "6d0adea8-2398-4f16-92e8-d19441ef2469")
-		)
-		(pin "23"
-			(uuid "38473578-4204-4013-852d-b74dff6736dc")
-		)
-		(pin "22"
-			(uuid "90ed5c54-3845-4a73-87f4-c1657798e527")
-		)
-		(pin "21"
-			(uuid "980b73a8-19e7-47be-aaa2-b542b371788a")
-		)
-		(pin "20"
-			(uuid "4cd74cda-1c02-446f-868c-18835495afbf")
-		)
-		(pin "19"
-			(uuid "175b5ac5-20c6-46dc-b568-e17dfd5ca4fa")
-		)
-		(pin "18"
-			(uuid "dceb0401-4181-4a0f-b822-75dacd59baa8")
-		)
-		(pin "17"
-			(uuid "8eef864b-7d1e-4352-9d04-2002c95bdd2f")
-		)
-		(pin "16"
-			(uuid "701e449c-2a19-470d-922b-f5b5a236b92d")
-		)
-		(pin "1"
-			(uuid "fe2561cb-94aa-41dc-9fbd-f784cdfe95d2")
-		)
-		(pin "2"
-			(uuid "a6cdf02c-7521-46c8-9895-a1deeec60396")
-		)
-		(pin "3"
-			(uuid "5b778951-d8e3-43ce-bbe3-cb01d8240d71")
-		)
-		(pin "4"
-			(uuid "442f6523-a868-4394-9023-7f6cf59cf80b")
-		)
-		(pin "7"
-			(uuid "c64531f2-6c3b-46f8-b82e-c9247eedffeb")
-		)
-		(pin "8"
-			(uuid "4c8a73ee-e57f-419e-9ee0-cf026f42f9ce")
-		)
-		(pin "5"
-			(uuid "8c5dec6e-15a2-4186-99a6-02d0947925d3")
-		)
-		(pin "6"
-			(uuid "b68b3333-339a-4359-9060-582100c0b298")
-		)
-		(instances
-			(project ""
-				(path "/ce115848-5daa-4079-937d-d5b781bb7914"
-					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 205.74 86.36 270)
 		(unit 1)
@@ -5575,6 +5441,140 @@
 			(project "mx_nrfpromicro"
 				(path "/ce115848-5daa-4079-937d-d5b781bb7914"
 					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Nice_Nano_V2:MCU_Nice_Nano_V2")
+		(at 138.43 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4778a165-412d-467f-bbc3-eca5caa7af0e")
+		(property "Reference" "U1"
+			(at 138.43 25.4 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "Nice_Nano_V2"
+			(at 138.43 27.94 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "ScottoKeebs_MCU:Nice_Nano_V2"
+			(at 138.43 69.85 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 110.49 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 138.43 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "eb9c2f1e-5586-4b4e-ad3f-f2c507cf3fe9")
+		)
+		(pin "8"
+			(uuid "22c51cb9-5d4b-4fad-9046-9cd05f030209")
+		)
+		(pin "10"
+			(uuid "941fba89-4e20-45ed-9267-509538f2ec4a")
+		)
+		(pin "1"
+			(uuid "49f2c240-fb84-422a-93be-f25dbe9705ed")
+		)
+		(pin "2"
+			(uuid "53beb249-6dab-4c19-ae8b-4eb7c2b85c16")
+		)
+		(pin "3"
+			(uuid "387467e7-a038-4f1a-b0ea-eea03f8422bd")
+		)
+		(pin "4"
+			(uuid "dc486dc5-68d0-47bc-8a86-beec818aad55")
+		)
+		(pin "6"
+			(uuid "0611deb9-6a53-44c9-883a-5500c5e3ad63")
+		)
+		(pin "7"
+			(uuid "308c6a7a-a1cc-4b6b-80a6-4acf4dd17a84")
+		)
+		(pin "9"
+			(uuid "5ccd3438-9ce4-4980-95db-bdb992c30be8")
+		)
+		(pin "19"
+			(uuid "ef26f6bf-066c-40de-bad0-72a48fbcf209")
+		)
+		(pin "18"
+			(uuid "558b8df8-dbe1-4dbb-9263-7c570f58e98b")
+		)
+		(pin "22"
+			(uuid "1c555183-42db-443a-8dd0-21ea5f7b1473")
+		)
+		(pin "16"
+			(uuid "0a642125-02aa-4a4a-93d2-f72466fcc1ff")
+		)
+		(pin "20"
+			(uuid "d51c77a2-c3ae-4077-9d4e-dda222f65c0b")
+		)
+		(pin "24"
+			(uuid "d4cd7e79-dffd-44eb-9d95-f312b63d52e2")
+		)
+		(pin "12"
+			(uuid "db29d77e-b749-4dc3-a448-498d4b17e056")
+		)
+		(pin "14"
+			(uuid "bc63017c-6c67-4468-955b-d73a2aba7e62")
+		)
+		(pin "21"
+			(uuid "c8c8f79d-c811-42bb-a715-7e00d611e516")
+		)
+		(pin "11"
+			(uuid "646c40c9-521f-4efd-9b60-5c9636052ec2")
+		)
+		(pin "23"
+			(uuid "5eaabe62-cbfb-4cb1-86eb-d377c198af17")
+		)
+		(pin "17"
+			(uuid "a48255ca-12d4-4ff3-91ec-19532d14a9ed")
+		)
+		(pin "13"
+			(uuid "ea9fb177-9990-4ab2-8341-48a6b563a11e")
+		)
+		(pin "15"
+			(uuid "8d4e5d79-8fac-470a-a395-a2eb690fd1f1")
+		)
+		(instances
+			(project ""
+				(path "/ce115848-5daa-4079-937d-d5b781bb7914"
+					(reference "U1")
 					(unit 1)
 				)
 			)
